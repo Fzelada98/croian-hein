@@ -1,0 +1,4 @@
+Contact: https://wa.me/5491141696601
+Preferred-Languages: en, es
+Canonical: https://croianhein.com/.well-known/security.txt
+Expires: 2027-09-11T00:00:00.000Z
