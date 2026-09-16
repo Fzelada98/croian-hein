@@ -1,0 +1,48 @@
+# Croian & Hein
+
+> A private house that places rare wine from one private cellar with collectors, family offices and
+> restaurant lists in Switzerland. More than a thousand references from 1815 to 2024; many exist as a
+> single bottle. Prices are never published: each bottle is quoted privately on request.
+
+Founded by Bárbara Amado, sommelier, who holds the exclusive representation for Switzerland of the
+collection. The cellar was assembled over four decades by an English winemaker established in
+Argentina who prefers to remain unnamed, and it remains in Buenos Aires under his care until a bottle
+travels. Delivery into Switzerland is insured and temperature-controlled, under bond or duty-paid.
+
+Contact: WhatsApp +54 9 11 4169 6601 · https://croianhein.com/
+
+## Inventory data
+- [Full cellar in plain text](https://croianhein.com/llms-full.txt): every wine, every vintage held, format, quantity and condition.
+- [Cellar as JSON](https://croianhein.com/cellar.json): the same inventory, machine-readable.
+
+## Key pages
+- [The cellar, bottle by bottle](https://croianhein.com/cellar/): index of 60 wines, each with its own page.
+- [Complete verticals](https://croianhein.com/verticals/): six full runs, one bottle of every vintage.
+- [For collectors in Switzerland](https://croianhein.com/switzerland/)
+- [For sommeliers and restaurant lists](https://croianhein.com/sommeliers/)
+- [Delivery and customs into Switzerland](https://croianhein.com/switzerland/delivery/): how a bottle travels, bond versus duty-paid.
+
+## Also in
+- [Genève, en français](https://croianhein.com/geneve/) · [Livraison et douane](https://croianhein.com/geneve/livraison/) · [Sommeliers](https://croianhein.com/geneve/sommeliers/)
+- [Zürich, auf Deutsch](https://croianhein.com/zuerich/) · [Lieferung und Zoll](https://croianhein.com/zuerich/lieferung/)
+- [Lugano, in italiano](https://croianhein.com/lugano/) · [Consegna e dogana](https://croianhein.com/lugano/consegna/)
+
+## Notable bottles
+- Sassicaia (1971, 1975, 1977, 1981, 1983, 1984) — https://croianhein.com/cellar/sassicaia/
+- Catena Zapata Estiba Reservada (1990, 1991, 1992, 1993, 1994, 1999) — https://croianhein.com/cellar/catena-zapata-estiba-reservada/
+- Château d’Yquem (1894, 1916, 1946, 1947, 1962, 1973) — https://croianhein.com/cellar/chateau-dyquem/
+- Pétrus (1946, 1954, 1969, 1971, 1973, 1974) — https://croianhein.com/cellar/petrus/
+- Masseto (1996, 1998, 1999, 2004, 2005, 2011) — https://croianhein.com/cellar/masseto/
+- Château Musar (1969, 1972, 1974, 1977, 1979, 1981) — https://croianhein.com/cellar/chateau-musar/
+- Romanée-Conti (1974, 1975, 1976, 1996, 2002, 2005) — https://croianhein.com/cellar/romanee-conti/
+- Comando G, Rumbo al Norte (2010, 2012, 2013, 2015, 2016, 2017) — https://croianhein.com/cellar/comando-g-rumbo-al-norte/
+- Barbaresco Crichet Pajé, Roagna (1978, 1996, 2000, 2002, 2008, 2011) — https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/
+- Saint-Joseph Vieilles Vignes, Pierre Gonon (1997, 2007, 2008, 2009, 2010, 2011) — https://croianhein.com/cellar/saint-joseph-vieilles-vignes-pierre-gonon/
+- Uni del Bonnesant ‘312’, Perse (2015, 2016, 2017, 2018, 2019, 2021) — https://croianhein.com/cellar/uni-del-bonnesant-312-perse/
+- Dom Pérignon (1962, 1964, 1966, 1969, 1976, 1978) — https://croianhein.com/cellar/dom-perignon/
+- Brunello Case Basse, Soldera (1987, 1991, 2001, 2006, 2013, 2016) — https://croianhein.com/cellar/brunello-case-basse-soldera/
+- Cuvée des Célestins, Henri Bonneau (1978, 1989, 1990, 1996, 1998, 1999) — https://croianhein.com/cellar/cuvee-des-celestins-henri-bonneau/
+
+## Terms
+Quantities are often one, and stock changes: the figures above are those of the September 2026 list.
+Nothing is sold anonymously online; every sale begins with a conversation.
