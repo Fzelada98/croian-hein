@@ -306,7 +306,7 @@
       <div class="label"><span class="ln"></span>A private house · MMXXVI</div>
       <h1>Some bottles are never sold. <em>They are entrusted.</em></h1>
       <p class="lede">A single private cellar, opened to a small circle of collectors in Switzerland. Discreetly, by appointment, and always in person.</p>
-      <div class="presence label"><span>Bárbara is in Geneva and Zürich in September 2026 · Tastings and viewings by appointment</span><a href="https://wa.me/5491141696601?text=Good%20afternoon%20B%C3%A1rbara.%20I%20saw%20you%20are%20in%20Switzerland%20this%20month.%20Could%20we%20meet%3F%20I%20am%20writing%20from%20croianhein.com." target="_blank" rel="noopener">Ask for an appointment &nbsp;&rarr;</a></div>
+      <div class="presence label"><span>Bárbara is in Geneva and Zürich in September 2026 · Tastings and viewings by appointment</span><a id="presWa" data-text="Good afternoon Bárbara. I saw you are in Switzerland this month. Could we meet? I am writing from croianhein.com." href="#" target="_blank" rel="noopener">Ask for an appointment &nbsp;&rarr;</a></div>
       <div class="cta">
         <a class="link label" href="#collection">A glimpse of the cellar <span class="ln"></span></a>
         <div class="places label"><span>Madrid</span><span>Geneva</span><span>Zürich</span></div>
@@ -517,7 +517,38 @@
 <script>
 (function(){
   var PHONE = "5491141696601";
-  var wa = document.getElementById('waLink'); wa.href = "https://wa.me/" + PHONE + "?text=" + encodeURIComponent("Good afternoon Bárbara, I am writing from croianhein.com."); wa.target = "_blank"; wa.rel = "noopener";
+
+  /* Origen de la visita. La misma página sirve para todos los canales: lo que cambia
+     es el parámetro ?src=, que viaja dentro del mensaje de WhatsApp para que Bárbara
+     sepa de dónde viene cada conversación sin cookies ni rastreo.
+     Enlaces: /?src=ig (biografía de Instagram), /?src=post, /?src=card, /?src=geneva … */
+  var SOURCES = {ig: "your Instagram", instagram: "your Instagram", post: "your Instagram post",
+                 story: "your Instagram story", card: "your card", sheet: "the list you gave me",
+                 geneva: "our meeting in Geneva", zurich: "our meeting in Zürich", mail: "your email"};
+  var SRC = (function(){
+    try {
+      var v = new URLSearchParams(location.search).get("src");
+      if (v) { try { sessionStorage.setItem("ch-src", v); } catch(e){} return v; }
+      try { return sessionStorage.getItem("ch-src"); } catch(e){ return null; }
+    } catch(e){ return null; }
+  })();
+  function waLinkFor(text){
+    var label = SRC && (SOURCES[SRC.toLowerCase()] || SRC);
+    if (label) {
+      /* El origen sustituye a la frase genérica, no se suma: "escribo desde su
+         Instagram" en lugar de "escribo desde croianhein.com. Escribo desde su Instagram". */
+      var re = /I am writing from croianhein\.com\./;
+      text = re.test(text) ? text.replace(re, "I am writing from " + label + ".")
+                           : text + " I am writing from " + label + ".";
+    }
+    return "https://wa.me/" + PHONE + "?text=" + encodeURIComponent(text);
+  }
+
+  var wa = document.getElementById('waLink');
+  wa.href = waLinkFor("Good afternoon Bárbara, I am writing from croianhein.com.");
+  wa.target = "_blank"; wa.rel = "noopener";
+  var presWa = document.getElementById('presWa');
+  if (presWa) presWa.href = waLinkFor(presWa.getAttribute('data-text'));
 
   /* ============ BOTTLE ============ */
   var CAP = {bordeaux:['#24060d','#5A1020','#9a3448','#c9899a'], black:['#030304','#17161a','#3a383f','#7a777f'], gold:['#4e3a12','#B9A477','#eadcb2','#fff7dc'], green:['#081310','#18352F','#3e6a5b','#8fb3a5'], cream:['#6e5e42','#d9cba6','#f4ecd4','#fffaf0']};
@@ -766,7 +797,7 @@
   /* ============ FORM ============ */
   document.getElementById('enqForm').addEventListener('submit', function(e){
     e.preventDefault(); var f = e.target;
-    var body = "Private enquiry · " + f.interest.value + "\n\n" + f.message.value + "\n\n" + f.name.value + (f.city.value ? ", " + f.city.value : "") + "\n" + f.email.value;
+    var body = "Private enquiry · " + f.interest.value + "\n\n" + f.message.value + "\n\n" + f.name.value + (f.city.value ? ", " + f.city.value : "") + "\n" + f.email.value + (SRC ? "\n\n(" + SRC + ")" : "");
     window.open("https://wa.me/" + PHONE + "?text=" + encodeURIComponent(body), "_blank", "noopener");
   });
 
