@@ -246,6 +246,17 @@
   .provenance .items p{font-size:18px;line-height:1.6;color:#DCE3DB;max-width:26em;font-weight:300}
   .provenance .items .rule{width:40px;background:var(--champagne-2);opacity:1;margin-bottom:20px}
   @media (max-width:760px){.provenance .items{grid-template-columns:1fr}}
+  /* El Journal va sobre marfil: dos secciones verdes seguidas pesaban demasiado. */
+  .journal{background:var(--cream)}
+  .journal .row > .label{color:var(--gold-ink)}
+  .journal .items{margin-top:56px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 64px}
+  .journal .items a{display:block;padding:26px 0;border-top:1px solid rgba(185,164,119,.5);transition:padding-left .45s cubic-bezier(.2,.6,.2,1)}
+  .journal .items a:hover{padding-left:10px}
+  .journal .items h3{font-size:26px;font-weight:400;margin-bottom:12px;line-height:1.18;max-width:14em}
+  .journal .items a:hover h3{color:var(--bordeaux)}
+  .journal .items p{font-size:17px;line-height:1.58;color:var(--ink-2);max-width:27em;font-weight:300}
+  .journal .items .rule{display:none}
+  @media (max-width:760px){.journal .items{grid-template-columns:1fr}}
 
   .enquire .grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:72px;align-items:start}
   .enquire p.l{margin-top:26px;font-size:20px;font-weight:300;max-width:24em;line-height:1.55}
@@ -294,6 +305,7 @@
     <li><a href="#collection">The Collection</a></li>
     <li><a href="#barbara">Bárbara</a></li>
     <li><a href="#provenance">Provenance</a></li>
+    <li><a href="/journal/">Journal</a></li>
     <li class="keep"><a class="enq" href="#enquire">Private enquiries</a></li>
   </ul>
 </nav>
@@ -454,6 +466,22 @@
       <div class="rv"><div class="rule"></div><h3>Delivery to Switzerland</h3><p>Insured, temperature-controlled transport to your home, cellar or bonded warehouse in Switzerland, under bond or duty-paid, with the paperwork handled for you.</p></div>
       <div class="rv"><div class="rule"></div><h3>Beyond the bottle</h3><p>Glassware, decanters, cellar books and the occasional object that simply belongs on a good table. Sourced the same way, with the same discretion.</p></div>
     </div>
+  </div>
+</section>
+
+<!-- ============ JOURNAL ============ -->
+<!-- La portada es, por ahora, la única página con autoridad propia. Enlazar desde
+     aquí a los artículos es lo que hace que Google los descubra y los indexe. -->
+<section class="journal" id="journal">
+  <div class="wrap">
+    <div class="row rv"><div class="label">The Journal</div><h2>What we know, written down.</h2></div>
+    <div class="items">
+      <a class="rv" href="/journal/importing-wine-into-switzerland/"><div class="rule"></div><h3>What a bottle costs to land in Switzerland</h3><p>Swiss duty on wine is charged by weight, not by value, and VAT is 8.1%. The arithmetic, and why it favours the expensive bottle.</p></a>
+      <a class="rv" href="/journal/fill-levels-explained/"><div class="rule"></div><h3>Fill levels, and what top shoulder is worth</h3><p>Neck, top shoulder, upper shoulder, mid shoulder: what the vocabulary means, and what level is normal at what age.</p></a>
+      <a class="rv" href="/journal/bonded-storage-switzerland/"><div class="rule"></div><h3>Bonded storage, and what the freeports really are</h3><p>Geneva, Chavornay, Embrach: how a customs warehouse works for a private cellar, and when it is the wrong answer.</p></a>
+      <a class="rv" href="/journal/selling-a-wine-collection-in-switzerland/"><div class="rule"></div><h3>Selling a cellar: auction, merchant or quietly</h3><p>What each route actually pays after commission, and the six steps that decide the number before you contact anyone.</p></a>
+    </div>
+    <p class="rv" style="margin-top:38px"><a href="/journal/" class="label" style="color:var(--bordeaux);border-bottom:1px solid var(--champagne);padding-bottom:3px">Read the Journal &nbsp;&rarr;</a></p>
   </div>
 </section>
 
