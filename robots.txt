@@ -35,13 +35,16 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-User-agent: Bingbot
-Allow: /
-
 User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
 Allow: /
 
 User-agent: CCBot
@@ -72,6 +75,12 @@ User-agent: Timpibot
 Allow: /
 
 User-agent: MistralAI-User
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: PetalBot
 Allow: /
 
 User-agent: *
