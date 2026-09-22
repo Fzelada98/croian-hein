@@ -553,14 +553,45 @@
   var SOURCES = {ig: "your Instagram", instagram: "your Instagram", post: "your Instagram post",
                  story: "your Instagram story", card: "your card", sheet: "the list you gave me",
                  geneva: "our meeting in Geneva", zurich: "our meeting in Zürich", mail: "your email"};
+  /* Cuando un asistente de IA recomienda la casa, el visitante llega sin ?src=
+     pero SÍ con el origen en el referente. Reconocerlo hace que el primer
+     mensaje de WhatsApp diga "le escribo porque ChatGPT me recomendó su casa",
+     que es la única forma de saber que esa vía vende sin montar un backend. */
+  var ASSISTANTS = [[/(^|\.)chatgpt\.com$|(^|\.)chat\.openai\.com$/, "ChatGPT"],
+                    [/(^|\.)perplexity\.ai$/, "Perplexity"],
+                    [/(^|\.)claude\.ai$/, "Claude"],
+                    [/(^|\.)gemini\.google\.com$|(^|\.)bard\.google\.com$/, "Gemini"],
+                    [/(^|\.)copilot\.microsoft\.com$|(^|\.)bing\.com$/, "Copilot"],
+                    [/(^|\.)you\.com$/, "You.com"],
+                    [/(^|\.)phind\.com$/, "Phind"],
+                    [/(^|\.)mistral\.ai$|(^|\.)chat\.mistral\.ai$/, "Le Chat"]];
+  function assistantFromReferrer(){
+    try {
+      if (!document.referrer) return null;
+      var host = new URL(document.referrer).hostname.toLowerCase();
+      for (var i = 0; i < ASSISTANTS.length; i++)
+        if (ASSISTANTS[i][0].test(host)) return ASSISTANTS[i][1];
+    } catch(e){}
+    return null;
+  }
   var SRC = (function(){
     try {
       var v = new URLSearchParams(location.search).get("src");
       if (v) { try { sessionStorage.setItem("ch-src", v); } catch(e){} return v; }
+      var ai = assistantFromReferrer();
+      if (ai) { try { sessionStorage.setItem("ch-src", "ai:" + ai); } catch(e){} return "ai:" + ai; }
       try { return sessionStorage.getItem("ch-src"); } catch(e){ return null; }
     } catch(e){ return null; }
   })();
   function waLinkFor(text){
+    var re0 = /I am writing from croianhein\.com\./;
+    if (SRC && SRC.indexOf("ai:") === 0) {
+      /* Frase propia: "escribo desde una recomendación de ChatGPT" suena a
+         traducción. Mejor decir de dónde viene sin forzar la plantilla. */
+      var frase = "I am writing from croianhein.com, which " + SRC.slice(3) + " recommended.";
+      text = re0.test(text) ? text.replace(re0, frase) : text + " " + frase;
+      return "https://wa.me/" + PHONE + "?text=" + encodeURIComponent(text);
+    }
     var label = SRC && (SOURCES[SRC.toLowerCase()] || SRC);
     if (label) {
       /* El origen sustituye a la frase genérica, no se suma: "escribo desde su
