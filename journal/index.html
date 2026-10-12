@@ -33,6 +33,7 @@ p{margin:0}
 header.top{border-bottom:1px solid rgba(185,164,119,.45)}
 .presence{background:var(--black);color:var(--champagne-2)}
 .presence .in{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:11px;padding-bottom:11px;flex-wrap:wrap}
+@media (min-width:761px){.presence .in{flex-wrap:nowrap}.presence .in span{min-width:0}}
 .presence a{color:var(--champagne);border-bottom:1px solid rgba(185,164,119,.5);padding-bottom:2px;white-space:nowrap}
 .presence a:hover{color:var(--ivory)}
 header.top .in{display:flex;align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:20px;gap:20px}
@@ -108,7 +109,7 @@ footer .bottom{margin-top:38px;padding-top:22px;border-top:1px solid rgba(185,16
   <a class="brand" href="/"><img src="/mark.svg" alt=""><span class="mark">Croian <i>&amp;</i> Hein</span></a>
   <nav class="label"><a href="/cellar/">The cellar</a><a href="/verticals/">Verticals</a><a href="/journal/">Journal</a><a href="/switzerland/">Switzerland</a><a href="https://wa.me/5491141696601?text=Good%20afternoon%20B%C3%A1rbara.%20I%20am%20writing%20from%20croianhein.com.">Enquiries</a></nav>
 </div></header>
-<div class="presence"><div class="wrap in"><span class="label">Bárbara is in Zürich in October 2026 · Private tastings and viewings by appointment</span><a class="label" href="https://wa.me/5491141696601?text=Good%20afternoon%20B%C3%A1rbara.%20I%20saw%20you%20are%20in%20Z%C3%BCrich%20in%20October.%20Could%20we%20meet%3F%20I%20am%20writing%20from%20croianhein.com.">Ask for an appointment &nbsp;&rarr;</a></div></div>
+<div class="presence"><div class="wrap in"><span class="label">Bárbara is in Zürich in October 2026 · Private tastings by appointment</span><a class="label" href="https://wa.me/5491141696601?text=Good%20afternoon%20B%C3%A1rbara.%20I%20saw%20you%20are%20in%20Z%C3%BCrich%20in%20October.%20Could%20we%20meet%3F%20I%20am%20writing%20from%20croianhein.com.">Ask for an appointment &nbsp;&rarr;</a></div></div>
 <div class="wrap crumb label"><a href="/">Croian & Hein</a> · <span>The Journal</span></div>
 <main>
 <div class="wrap hero">
@@ -128,10 +129,16 @@ footer .bottom{margin-top:38px;padding-top:22px;border-top:1px solid rgba(185,16
 </div>
 <div class="wrap"><style>
 .art{max-width:1080px;margin:0 auto;padding:0 var(--pad)}
-.art .head{padding:clamp(36px,6vh,64px) 0 0;max-width:20em}
+/* La cabecera usa la misma rejilla que el cuerpo: título y entradilla alineados con
+   el texto, etiquetas a la izquierda. Antes iba limitada a 20em (unos 380 px) y dejaba
+   media pantalla vacía a la derecha del título (12-oct-2026). */
+.art .head{padding-top:clamp(36px,6vh,64px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.15fr);gap:56px;align-items:start}
+.art .head .hl{padding-top:14px;border-top:1px solid rgba(185,164,119,.6)}
+.art .head .meta{margin-top:14px;flex-direction:column;gap:6px}
+@media (max-width:900px){.art .head{grid-template-columns:1fr;gap:18px}.art .head .hl{border-top:0;padding-top:0}.art .head .meta{flex-direction:row;gap:18px}}
 .art h1{font-size:clamp(36px,5.2vw,64px)}
 .art .meta{margin-top:24px;color:var(--gold-ink);display:flex;gap:18px;flex-wrap:wrap}
-.art .lede{margin-top:30px;max-width:26em;font-size:clamp(21px,1.8vw,26px);font-weight:300;font-style:italic;color:var(--ink-2)}
+.art .lede{margin-top:26px;max-width:30em;font-size:clamp(21px,1.8vw,26px);font-weight:300;font-style:italic;color:var(--ink-2)}
 .art .cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.15fr);gap:56px;align-items:start;margin-top:clamp(40px,6vh,64px)}
 @media (max-width:900px){.art .cols{grid-template-columns:1fr;gap:28px}}
 .art .side{position:sticky;top:26px;border-top:1px solid rgba(185,164,119,.6);padding-top:16px}
