@@ -1,6 +1,6 @@
 {
  "house": "Croian & Hein",
- "updated": "2026-10-15",
+ "updated": "2026-10-18",
  "currency": "price on request",
  "market": "Switzerland",
  "contact": "https://wa.me/5491141696601",
@@ -80,9 +80,14 @@
        "quantity": 60,
        "format": "bottles",
        "condition": "100/100 points"
+      },
+      {
+       "quantity": 1,
+       "format": "original case",
+       "condition": "100/100 points"
       }
      ],
-     "total": 60
+     "total": 61
     }
    ]
   },
@@ -157,8 +162,8 @@
      "url": "https://croianhein.com/cellar/bodega-chacra-32/2021/",
      "holdings": [
       {
-       "quantity": 12,
-       "format": "bottles",
+       "quantity": 1,
+       "format": "bottle",
        "condition": "J-M Roulot"
       },
       {
@@ -172,15 +177,15 @@
        "condition": ""
       }
      ],
-     "total": 21
+     "total": 10
     },
     {
      "vintage": "2022",
      "url": "https://croianhein.com/cellar/bodega-chacra-32/2022/",
      "holdings": [
       {
-       "quantity": 6,
-       "format": "bottles",
+       "quantity": 1,
+       "format": "bottle",
        "condition": "J-M Roulot"
       },
       {
@@ -204,7 +209,7 @@
        "condition": ""
       }
      ],
-     "total": 76
+     "total": 71
     },
     {
      "vintage": "2023",
@@ -236,9 +241,26 @@
        "quantity": 3,
        "format": "magnums",
        "condition": ""
+      },
+      {
+       "quantity": 12,
+       "format": "bottles",
+       "condition": "J-M Roulot, 99/100 points"
       }
      ],
-     "total": 15
+     "total": 27
+    },
+    {
+     "vintage": "2025",
+     "url": "https://croianhein.com/cellar/bodega-chacra-32/2025/",
+     "holdings": [
+      {
+       "quantity": 6,
+       "format": "bottles",
+       "condition": "J-M Roulot, 98/100 points"
+      }
+     ],
+     "total": 6
     }
    ]
   },
@@ -557,6 +579,18 @@
       }
      ],
      "total": 12
+    },
+    {
+     "vintage": "2019",
+     "url": "https://croianhein.com/cellar/catena-zapata-estiba-reservada/2019/",
+     "holdings": [
+      {
+       "quantity": 5,
+       "format": "bottles",
+       "condition": "the first vintage since 1990 with a touch of Malbec"
+      }
+     ],
+     "total": 5
     }
    ]
   },
@@ -661,87 +695,28 @@
    "story": "From a single high-altitude parcel in Gualtallary, made by David Bonomi and Edy del Pópolo. Tim Atkin named it Wine of the Year, twice.",
    "vintages": [
     {
-     "vintage": "2015",
-     "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2015/",
-     "holdings": [
-      {
-       "quantity": 2,
-       "format": "bottles",
-       "condition": "98/100 points"
-      },
-      {
-       "quantity": 4,
-       "format": "original cases",
-       "condition": "98/100 points"
-      },
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "97/100 points"
-      },
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": ""
-      },
-      {
-       "quantity": 39,
-       "format": "bottles",
-       "condition": ""
-      }
-     ],
-     "total": 57
-    },
-    {
-     "vintage": "2016",
-     "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2016/",
-     "holdings": [
-      {
-       "quantity": 1,
-       "format": "bottle",
-       "condition": "NV, 37.5cl"
-      },
-      {
-       "quantity": 4,
-       "format": "bottles",
-       "condition": ""
-      },
-      {
-       "quantity": 1,
-       "format": "original case",
-       "condition": "99/100 points"
-      },
-      {
-       "quantity": 1,
-       "format": "original case",
-       "condition": "97/100 points"
-      }
-     ],
-     "total": 7
-    },
-    {
      "vintage": "2017",
      "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2017/",
      "holdings": [
       {
-       "quantity": 6,
+       "quantity": 2,
        "format": "bottles",
        "condition": ""
       }
      ],
-     "total": 6
+     "total": 2
     },
     {
      "vintage": "2018",
      "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2018/",
      "holdings": [
       {
-       "quantity": 3,
+       "quantity": 2,
        "format": "bottles",
        "condition": ""
       }
      ],
-     "total": 3
+     "total": 2
     },
     {
      "vintage": "2019",
@@ -751,69 +726,25 @@
        "quantity": 5,
        "format": "bottles",
        "condition": "100/100 points"
-      },
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "100/100 points"
-      },
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "99/100 points"
       }
      ],
-     "total": 17
+     "total": 5
     },
     {
      "vintage": "2021",
      "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2021/",
      "holdings": [
       {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "100/100 points"
-      },
-      {
        "quantity": 1,
        "format": "bottle",
        "condition": ""
       }
      ],
-     "total": 7
+     "total": 1
     },
     {
      "vintage": "2022",
      "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2022/",
-     "holdings": [
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "100/100 points"
-      },
-      {
-       "quantity": 1,
-       "format": "bottle",
-       "condition": ""
-      }
-     ],
-     "total": 7
-    },
-    {
-     "vintage": "2023",
-     "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2023/",
-     "holdings": [
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "99/100 points"
-      }
-     ],
-     "total": 6
-    },
-    {
-     "vintage": "2024",
-     "url": "https://croianhein.com/cellar/uni-del-bonnesant-312-perse/2024/",
      "holdings": [
       {
        "quantity": 1,
@@ -838,12 +769,12 @@
      "url": "https://croianhein.com/cellar/weinert-malbec-estrella/1977/",
      "holdings": [
       {
-       "quantity": 6,
+       "quantity": 3,
        "format": "bottles",
-       "condition": "Cavas, 1er edicion"
+       "condition": "Cavas de Weinert, 1er edicion, 100/100 points"
       }
      ],
-     "total": 6
+     "total": 3
     },
     {
      "vintage": "1978",
@@ -1223,18 +1154,6 @@
    "story": "Eleven hectares of blue clay on the Pomerol plateau, farmed by the Moueix family and made almost entirely from Merlot. Pétrus never had a château to speak of; it had the soil, and the soil made it the most sought-after wine in Bordeaux.",
    "vintages": [
     {
-     "vintage": "1946",
-     "url": "https://croianhein.com/cellar/petrus/1946/",
-     "holdings": [
-      {
-       "quantity": 1,
-       "format": "bottle",
-       "condition": "very top-shoulder fill"
-      }
-     ],
-     "total": 1
-    },
-    {
      "vintage": "1954",
      "url": "https://croianhein.com/cellar/petrus/1954/",
      "holdings": [
@@ -1317,6 +1236,18 @@
       }
      ],
      "total": 2
+    },
+    {
+     "vintage": "1985",
+     "url": "https://croianhein.com/cellar/petrus/1985/",
+     "holdings": [
+      {
+       "quantity": 1,
+       "format": "bottle",
+       "condition": ""
+      }
+     ],
+     "total": 1
     },
     {
      "vintage": "1986",
@@ -1889,12 +1820,12 @@
      "url": "https://croianhein.com/cellar/dom-perignon/1976/",
      "holdings": [
       {
-       "quantity": 3,
-       "format": "bottles",
+       "quantity": 1,
+       "format": "bottle",
        "condition": ""
       }
      ],
-     "total": 3
+     "total": 1
     },
     {
      "vintage": "1978",
@@ -1978,17 +1909,12 @@
       {
        "quantity": 2,
        "format": "bottles",
-       "condition": "Disg.Mai 2021"
+       "condition": ""
       },
       {
-       "quantity": 3,
+       "quantity": 9,
        "format": "bottles",
-       "condition": "Disg.16/01/2020"
-      },
-      {
-       "quantity": 6,
-       "format": "bottles",
-       "condition": "Disg.14/06/2020"
+       "condition": ""
       },
       {
        "quantity": 3,
@@ -2305,18 +2231,6 @@
    "story": "A single steep parcel of old vines, fermented for months on the skins and released after a decade in cask. Roagna bottles it only in the best years and in very small numbers.",
    "vintages": [
     {
-     "vintage": "1978",
-     "url": "https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/1978/",
-     "holdings": [
-      {
-       "quantity": 1,
-       "format": "magnum",
-       "condition": ""
-      }
-     ],
-     "total": 1
-    },
-    {
      "vintage": "1996",
      "url": "https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/1996/",
      "holdings": [
@@ -2360,6 +2274,18 @@
        "quantity": 1,
        "format": "bottle",
        "condition": ""
+      }
+     ],
+     "total": 1
+    },
+    {
+     "vintage": "2010",
+     "url": "https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/2010/",
+     "holdings": [
+      {
+       "quantity": 1,
+       "format": "bottle",
+       "condition": "99/100 points"
       }
      ],
      "total": 1
@@ -2444,17 +2370,24 @@
      "url": "https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/2016/",
      "holdings": [
       {
-       "quantity": 1,
-       "format": "bottle",
+       "quantity": 6,
+       "format": "bottles",
        "condition": "100/100 points"
-      },
-      {
-       "quantity": 1,
-       "format": "jeroboam, 5 litres",
-       "condition": "5ltrs, 100/100 points"
       }
      ],
-     "total": 2
+     "total": 6
+    },
+    {
+     "vintage": "2019",
+     "url": "https://croianhein.com/cellar/barbaresco-crichet-paje-roagna/2019/",
+     "holdings": [
+      {
+       "quantity": 1,
+       "format": "bottle",
+       "condition": "99/100 points"
+      }
+     ],
+     "total": 1
     }
    ]
   },
@@ -2752,6 +2685,18 @@
       }
      ],
      "total": 1
+    },
+    {
+     "vintage": "2006",
+     "url": "https://croianhein.com/cellar/masseto/2006/",
+     "holdings": [
+      {
+       "quantity": 2,
+       "format": "bottles",
+       "condition": "99/100 points"
+      }
+     ],
+     "total": 2
     },
     {
      "vintage": "2011",
@@ -3252,12 +3197,12 @@
        "condition": "100/100 points"
       },
       {
-       "quantity": 6,
+       "quantity": 8,
        "format": "magnums",
        "condition": "100/100 points"
       }
      ],
-     "total": 9
+     "total": 11
     },
     {
      "vintage": "2018",
@@ -3977,6 +3922,18 @@
       }
      ],
      "total": 6
+    },
+    {
+     "vintage": "2012",
+     "url": "https://croianhein.com/cellar/hermitage-la-chapelle-jaboulet/2012/",
+     "holdings": [
+      {
+       "quantity": 1,
+       "format": "double magnum",
+       "condition": ""
+      }
+     ],
+     "total": 1
     }
    ]
   },
@@ -4189,18 +4146,6 @@
       }
      ],
      "total": 1
-    },
-    {
-     "vintage": "1984",
-     "url": "https://croianhein.com/cellar/rivesaltes-chateau-mosse/1984/",
-     "holdings": [
-      {
-       "quantity": 1,
-       "format": "bottle",
-       "condition": ""
-      }
-     ],
-     "total": 1
     }
    ]
   },
@@ -4215,18 +4160,6 @@
     {
      "vintage": "1894",
      "url": "https://croianhein.com/cellar/chateau-dyquem/1894/",
-     "holdings": [
-      {
-       "quantity": 1,
-       "format": "bottle",
-       "condition": ""
-      }
-     ],
-     "total": 1
-    },
-    {
-     "vintage": "1916",
-     "url": "https://croianhein.com/cellar/chateau-dyquem/1916/",
      "holdings": [
       {
        "quantity": 1,
@@ -4313,8 +4246,8 @@
      "url": "https://croianhein.com/cellar/chateau-dyquem/1996/",
      "holdings": [
       {
-       "quantity": 2,
-       "format": "bottles",
+       "quantity": 1,
+       "format": "bottle",
        "condition": ""
       },
       {
@@ -4323,7 +4256,7 @@
        "condition": "ex Chateau stock"
       }
      ],
-     "total": 3
+     "total": 2
     },
     {
      "vintage": "2004",
@@ -4594,9 +4527,14 @@
        "quantity": 1,
        "format": "bottle",
        "condition": ""
+      },
+      {
+       "quantity": 4,
+       "format": "bottles",
+       "condition": "Albillo, 100/100 points"
       }
      ],
-     "total": 3
+     "total": 7
     },
     {
      "vintage": "2019",
@@ -4614,6 +4552,11 @@
      "vintage": "2020",
      "url": "https://croianhein.com/cellar/comando-g-rumbo-al-norte/2020/",
      "holdings": [
+      {
+       "quantity": 6,
+       "format": "bottles",
+       "condition": "Albillo, 100/100 points"
+      },
       {
        "quantity": 1,
        "format": "bottle",
@@ -4635,7 +4578,7 @@
        "condition": ""
       }
      ],
-     "total": 15
+     "total": 21
     },
     {
      "vintage": "2021",
@@ -4808,6 +4751,30 @@
       }
      ],
      "total": 3
+    },
+    {
+     "vintage": "2022",
+     "url": "https://croianhein.com/cellar/la-faraona-descendientes-de-j-palacios/2022/",
+     "holdings": [
+      {
+       "quantity": 3,
+       "format": "bottles",
+       "condition": "98/100 points"
+      }
+     ],
+     "total": 3
+    },
+    {
+     "vintage": "2023",
+     "url": "https://croianhein.com/cellar/la-faraona-descendientes-de-j-palacios/2023/",
+     "holdings": [
+      {
+       "quantity": 12,
+       "format": "bottles",
+       "condition": "100/100 points"
+      }
+     ],
+     "total": 12
     }
    ]
   },
