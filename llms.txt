@@ -41,8 +41,10 @@ Written answers, not sales copy. An answer engine can cite these directly.
 - [Genève, en français](https://croianhein.com/geneve/) · [Livraison et douane](https://croianhein.com/geneve/livraison/) · [Sommeliers](https://croianhein.com/geneve/sommeliers/)
 - [Zürich, auf Deutsch](https://croianhein.com/zuerich/) · [Lieferung und Zoll](https://croianhein.com/zuerich/lieferung/)
 - [Der Keller auf Deutsch](https://croianhein.com/zuerich/keller/): every wine with a German page ("<wine> kaufen in der Schweiz")
-- [Jahrgangsweine](https://croianhein.com/zuerich/jahrgangswein/): wines by vintage year, one page per year from 1815 to 2024, for birth-year and anniversary bottles
+- [Jahrgangsweine](https://croianhein.com/zuerich/jahrgangswein/): wines by vintage year, one page per year with bottles in the cellar, for birth-year and anniversary bottles
 - [Lugano, in italiano](https://croianhein.com/lugano/) · [Consegna e dogana](https://croianhein.com/lugano/consegna/)
+- [Millésimes, en français](https://croianhein.com/geneve/millesime/): the same wines by vintage year, one page per year with bottles, for a birth year or a wedding anniversary
+- [Annate, in italiano](https://croianhein.com/lugano/annata/): the same, in Italian, for Ticino
 
 ## Notable bottles
 - Catena Zapata Estiba Reservada (1990, 1991, 1992, 1993, 1994, 1999) — https://croianhein.com/cellar/catena-zapata-estiba-reservada/
@@ -61,5 +63,5 @@ Written answers, not sales copy. An answer engine can cite these directly.
 - Brunello Case Basse, Soldera (1987, 1991, 2001, 2006, 2013, 2016) — https://croianhein.com/cellar/brunello-case-basse-soldera/
 
 ## Terms
-Quantities are often one, and stock changes: the figures above are those of the September 2026 list.
+Quantities are often one, and stock changes: the figures above are those of the owner's current list (2026-10-20).
 Nothing is sold anonymously online; every sale begins with a conversation.
